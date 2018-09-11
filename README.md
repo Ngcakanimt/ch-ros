@@ -1,2 +1,6 @@
 # chóros
-An astronaut trapped deep in space enters an unknown dimension where he must shoot his way past enemies to make it home
+An astronaut trapped deep in space enters an unknown dimension where he must shoot his way past enemies to escape and make it home (overview)
+Tasks for week 1: Mtha(music), Agatha(spaceship), Bakitsi(Background)
+Week 1 objectives: create intro music, create menu with start and quit options, create spaceship model and make it move...
+Week 2 objectives: Make the ship able to shoot, create enemies...
+Week 3 objectives: Create and transition into other levels (3 Levels should be enough) 
