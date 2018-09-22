@@ -1,0 +1,25 @@
+﻿<Window x:Name="Main_menu"  x:Class="CSc_semester_project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSc_semester_project"
+        mc:Ignorable="d"
+        Title="Chóros" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="197*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="284" Margin="176,50,0,0" VerticalAlignment="Top" Width="420" Grid.Column="1"/>
+        <Canvas x:Name="myMain" HorizontalAlignment="Left" Height="419" Margin="6,0,0,0" VerticalAlignment="Top" Width="772" Grid.Column="1">
+            <Canvas.Background>
+                <ImageBrush/>
+            </Canvas.Background>
+            <Image x:Name="main_menu_background_gif" Height="419" Source="main_menu background.gif" Stretch="Fill" Width="772"/>
+            <Button x:Name="BtnPlay" Content="PLAY" Canvas.Left="315" Canvas.Top="185" Width="125" Height="47" RenderTransformOrigin="0.541,-0.557" Click="BtnPlay_Click"/>
+            <Button x:Name="BtnExit" Content="EXIT" Canvas.Left="315" Canvas.Top="289" Width="125" Height="47" Click="BtnExit_Click"/>
+            
+        </Canvas>
+    </Grid>
+</Window>
