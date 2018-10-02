@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Keyboard Events" Height="450" Width="800" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="332*"/>
+            <ColumnDefinition Width="461*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas HorizontalAlignment="Left" Height="421" Margin="0,0,0,-0.333" VerticalAlignment="Top" Width="793" Grid.ColumnSpan="2">
+            <Canvas x:Name="playground" Margin="10"/>
+            <Canvas Height="90" Canvas.Left="auto" Canvas.Top="66" Width="auto"/>
+            <Canvas.Background>
+                <ImageBrush ImageSource="space.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+
+
+
+    </Grid>
+</Window>
